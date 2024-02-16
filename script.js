@@ -8,8 +8,6 @@ const boxes = document.querySelectorAll('.box')
         const trigger = window.innerHeight / 6 * 4;
         
         boxes.forEach(box => {
-
-            console.log(box);
             const top = box.getBoundingClientRect().top
             
             if (trigger > top) {
